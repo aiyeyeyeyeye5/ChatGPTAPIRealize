@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="OpenAI_Client.h" />
+    <ClInclude Include="CurlWrapper.h" />
+    <ClInclude Include="Response.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="PostData.h" />
+    <ClInclude Include="convert.h" />
+    <ClInclude Include="NetWorkProxy.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OpenAI_Client.cpp" />
+    <ClCompile Include="CurlWrapper.cpp" />
+    <ClCompile Include="Response.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PostData.cpp" />
+    <ClCompile Include="NetWorkProxy.cpp" />
+  </ItemGroup>
+</Project>
