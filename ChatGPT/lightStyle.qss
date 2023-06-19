@@ -1,0 +1,95 @@
+/* 主布局 */
+QHBoxLayout#mainLayout {
+    background-color: #FFFFFF;
+}
+
+/* 左侧组件样式 */
+QWidget#leftWidget {
+    background-color: #202123;
+    color: #ffffff;
+    font-family: Verdana;
+}
+
+QVBoxLayout#leftLayout {
+    background-color: #202123;
+    color: #ffffff;
+    font-family: Verdana ,Microsoft YaHei ;
+}
+
+QPushButton#settingsButton {
+    border-top: 1px solid #4d4d4f;
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: #202123;
+    color: #ffffff;
+    font-family: Verdana;
+}
+
+QPushButton#newChatButton {
+    border: 1px solid #4d4d4f; 
+    border-radius: 15px;  
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: #202123;
+    color: #ffffff;
+    font-family: Verdana;
+}
+
+
+
+QListWidget#chatHistory {
+    border: none;
+     background-color: #202123;
+     font-size: 20px;
+    color: #ffffff;
+    font-family: Verdana;
+}
+
+QHBoxLayout#topButtonsLayout, QHBoxLayout#midTextLayout, QHBoxLayout#bottomButtonLayout {
+    margin: 10px;
+     background-color: #202123;
+    color: #ffffff;
+}
+
+QMenu#settingsMenu {
+    border: none;
+     background-color: #202123;
+    color: #ffffff;
+}
+
+/* 右侧组件样式 */
+QWidget#rightWidget {
+    background-color: #EEEEEE;
+}
+
+QVBoxLayout#rightLayout {
+    margin: 10px;
+}
+
+QHBoxLayout#highLayout, QHBoxLayout#lowLayout {
+    margin: 10px;
+}
+
+QTextEdit#chatDisplayArea {
+    border: 2px solid #CCCCCC;
+    background-color: #FFFFFF;
+    font-size: 20px;
+}
+
+QTextEdit#inputField {
+    border: 2px solid #CCCCCC;
+    background-color: #FFFFFF;
+    font-size: 20px;
+}
+
+QPushButton#sendButton {
+    background-color: #ab68ff;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+QPushButton#sendButton:pressed {
+     background-color: #acacbe;
+}
